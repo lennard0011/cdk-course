@@ -15,6 +15,7 @@ export class InfraStack extends cdk.Stack {
           'npm run build',
           'npx cdk synth',
         ],
+        primaryOutputDirectory: 'ci-cd-pipeline/infra/cdk.out',
       }),
     })
 
